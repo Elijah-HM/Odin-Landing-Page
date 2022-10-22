@@ -1,0 +1,143 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header,.box-oneb,.images,.blue-box{
+    display: flex;
+}
+.btwo-text,.q-text,footer{
+    text-align: center;
+}
+.header{
+    padding: 20px 0 50px 0;
+    height: 100px;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-content: center;
+}
+.hlogo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header-left{
+    justify-content: flex-start;
+    width: 50%;
+    display: flex;
+    padding-left: 165px;
+}
+.header-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btext{
+    padding-bottom: 5px;
+}
+a,.btext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.box-one{
+    height: 400px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+.box-oneb{
+    background-color: #1f2937;
+    justify-content: space-around;
+   
+}
+.bheader{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.bottom-left{
+    height: 200px;
+    width: 400px;
+}
+.first-button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100px;
+}
+.box-two{
+    height: 400px;
+}
+.btwo-text{
+    padding-top: 25px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.header-two{
+    padding-bottom: 50px;
+}
+.images{
+    justify-content: space-around;
+
+}
+.four-imgs{
+    text-align: center;
+}
+.box-three{
+    display: flex;
+    height: 400px;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.quoter{
+    font-weight: bold;
+}
+.box-four{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.blue-box{
+    height: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    align-items: center;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+.bb-button{
+    width: 90px;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 2px;
+}
+.end{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    color: #f9faf8;
+    font-weight: bold;
+}
+.bottom-right img{
+    object-fit: fill;
+}
